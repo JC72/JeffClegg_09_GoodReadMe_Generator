@@ -4,12 +4,12 @@ const inquirer = require ('inquirer');
 const fs = require('fs');
 const util = require('util');
 
-// internal javascript
+// internal javascript modules
 
 const githublink = require ('./utils/githublink');
 const generateMarkdown =  require ('./utils/generateMarkdown');
 
-// array of questions for user
+// array of questions for user with default values
 const questions = [
 
     {

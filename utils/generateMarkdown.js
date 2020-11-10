@@ -21,7 +21,7 @@ function generateMarkdown(userData,userInfo) {
 
   // Title Portion
   let draftMarkdown = 
-  `# ${userData.title}`
+  `# ${userData.title}`;
   
   
   // Descriptions Section
@@ -62,7 +62,6 @@ function generateMarkdown(userData,userInfo) {
   draftMarkdown +=
   
   `
-  
   ## Usage 
   
   *Instructions and examples for use:*
@@ -113,12 +112,12 @@ function generateMarkdown(userData,userInfo) {
   `
   ---
   
-  ## Questions?
+  ## Questions?`
   
   // Incase a avatar wants to be added!!
   // ![Developer Profile Picture](${userInfo.avatar_url}) 
   
-  For any questions, please contact me with the following information below:
+  `For any questions, please contact me with the following information below:
 
  
   GitHub: [@${userInfo.login}](${userInfo.html_url})
