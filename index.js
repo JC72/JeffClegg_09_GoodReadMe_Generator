@@ -39,8 +39,8 @@ const questions = [
     {
         type: 'input',
         message: "What is the title of your project?",
-        name: 'Good Readme Generator',
-        default: 'Project Title',
+        name: 'title',
+        default: 'Good ReadMe Generator',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid project title is required.");

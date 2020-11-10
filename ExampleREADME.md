@@ -1,4 +1,10 @@
-// function to generate markdown for README
+# undefined
+  
+  
+  <!-- // Descriptions Section -->
+
+  ## Description 
+  // function to generate markdown for README
 function generateMarkdown(userData,userInfo) {
   
   // Generate Table of Contents conditionally based on userData
@@ -21,12 +27,12 @@ function generateMarkdown(userData,userInfo) {
 
   // Title Portion
   let draftMarkdown = 
-  `# ${userData.title}`
+  `# ${userData.title}
   
   
   // Descriptions Section
 
-  `## Description 
+  ## Description 
   
   *The what, why, and how:* 
   
@@ -106,11 +112,11 @@ function generateMarkdown(userData,userInfo) {
   ${userData.license}
   ![Badge for GitHub repo license](https://img.shields.io/github/license/${userData.username}/${userData.repo}?style=flat&logo=appveyor)
     Check out the badges hosted by [shields.io](https://shields.io/).
+';
 
-`
   // Questions / About Developer section
   let draftDev = 
-  `
+  
   ---
   
   ## Questions?
@@ -142,3 +148,51 @@ function generateMarkdown(userData,userInfo) {
 
 
 module.exports = generateMarkdown;
+  *The what, why, and how:* 
+  
+  To create a readme.md file
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)
+  
+
+  ## Installation
+  
+  *Steps required to install project and how to get the development environment running:*
+  
+  fdksjfldksfjdas
+  
+  ## Usage 
+  
+  *Instructions and examples for use:*
+  
+  jldfd;sjfal;dfj
+  
+  ## Tests
+  
+  *Tests for application and how to run them:*
+  
+  fjkdsjfdas;kj
+  
+  ## License
+  
+  MIT License
+  ![Badge for GitHub repo license](https://img.shields.io/github/license/JC72/JeffClegg_09_GoodReadMe_Generator?style=flat&logo=appveyor)
+    Check out the badges hosted by [shields.io](https://shields.io/).
+
+
+  ---
+  
+  ## Questions?
+  
+  // Incase a avatar wants to be added!!
+  // ![Developer Profile Picture](https://avatars1.githubusercontent.com/u/70453210?v=4) 
+  
+  For any questions, please contact me with the following information below:
+
+ 
+  GitHub: [@JC72](https://github.com/JC72)
+  
