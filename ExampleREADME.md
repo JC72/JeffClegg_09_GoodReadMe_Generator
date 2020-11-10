@@ -4,7 +4,7 @@
   
   *The what, why, and how:* 
   
-  Testing this
+  dsfdfdsfdsfsdfasd
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,31 +12,45 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [License](#license)
+  * [Quetsions](#questions)
   
 
   ## Installation
   
   *Steps required to install project and how to get the development environment running:*
   
-  help me
+  fffffffffffffffffffffffffffffff
+  
+  
   ## Usage 
   
   *Instructions and examples for use:*
   
-  want it to work
+  dfdsfdsfdsfsdafasd
+  
+  
+  
+  ## Contributing
+  
+  *If you would like to contribute it, you can follow these guidelines for how to do so.*
+  
+  adsfdasfdsfdsafdasf
+  
+  
   
   ## Tests
   
   *Tests for application and how to run them:*
   
-  npm jest
+  adsfdsafdsfdasfdsfdsfdasf
   
   ## License
   
   MIT License
-  ![Badge for GitHub repo license](https://img.shields.io/github/license/JC72/JeffClegg_09_GoodReadMe_Generator?style=flat&logo=appveyor)
-    Check out the badges hosted by [shields.io](https://shields.io/).
 
+  ![Badge for GitHub repo license](https://img.shields.io/github/license/JC72/JeffClegg_09_GoodReadMe_Generator?style=flat&logo=appveyor)
+   
+  
 
   ---
   

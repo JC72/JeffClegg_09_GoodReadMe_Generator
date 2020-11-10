@@ -43,7 +43,9 @@ function generateMarkdown(userData,userInfo) {
  
   // Add License section since License is required to Table of Contents
   draftMarkdown += `
-  * [License](#license)`;
+  * [License](#license)
+  * [Quetsions](#questions)`;
+
   
 
   // Optional Installation section
@@ -73,19 +75,26 @@ function generateMarkdown(userData,userInfo) {
   
   *Instructions and examples for use:*
   
-  ${userData.usage}`
+  ${userData.usage}
+  
+  `
   };
   
   
   // Optional Contributing section
   if (userData.contributing !== '') {
+
+draftMarkdown +=
+
   `
   
   ## Contributing
   
   *If you would like to contribute it, you can follow these guidelines for how to do so.*
   
-  ${userData.contributing}`
+  ${userData.contributing}
+  
+  `
   };
   
 
@@ -110,10 +119,10 @@ function generateMarkdown(userData,userInfo) {
   ## License
   
   ${userData.license}
-  
-  ![Badge for GitHub repo license](https://img.shields.io/github/license/${userData.username}/${userData.repo}?style=flat&logo=appveyor)
-    Check out the badges hosted by [shields.io](https://shields.io/).
 
+  ![Badge for GitHub repo license](https://img.shields.io/github/license/${userData.username}/${userData.repo}?style=flat&logo=appveyor)
+   
+  
 `
   // Questions / About Developer section
   let draftDev = 
