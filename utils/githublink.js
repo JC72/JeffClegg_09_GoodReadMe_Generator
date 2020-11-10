@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const api = {
+const githublink = {
   async getUser(userResponses) {
     try { let response = await axios
         
@@ -13,4 +13,4 @@ const api = {
   }
 };
 
-module.exports = api;
+module.exports = githublink;

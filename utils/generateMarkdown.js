@@ -103,14 +103,14 @@ function generateMarkdown(userData,userInfo) {
   
   ## License
   
-  '${userData.license}
+  ${userData.license}
   ![Badge for GitHub repo license](https://img.shields.io/github/license/${userData.username}/${userData.repo}?style=flat&logo=appveyor)
     Check out the badges hosted by [shields.io](https://shields.io/).
 
-
+`
   // Questions / About Developer section
   let draftDev = 
-  
+  `
   ---
   
   ## Questions?
@@ -140,6 +140,5 @@ function generateMarkdown(userData,userInfo) {
   
 }
 
-}
 
 module.exports = generateMarkdown;

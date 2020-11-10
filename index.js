@@ -1,6 +1,13 @@
-const inquirer = require ('inquirer');
-var fs = require('fs');
+//External Modules
 
+const inquirer = require ('inquirer');
+const fs = require('fs');
+const util = require('util');
+
+// internal javascript
+
+const githublink = require ('./utils/githublink');
+const generateMarkdown =  require ('./utils/generateMarkdown');
 
 // array of questions for user
 const questions = [
@@ -32,7 +39,7 @@ const questions = [
     {
         type: 'input',
         message: "What is the title of your project?",
-        name: 'title',
+        name: 'Good Readme Generator',
         default: 'Project Title',
         validate: function (answer) {
             if (answer.length < 1) {
@@ -95,20 +102,20 @@ function writeToFile(fileName, data) {
 const writeFileAsync = util.promisify(writeToFile);
 
 // function to initialize program
-function init() {
+async function init() {
     try {
 
         // Prompt Inquirer questions
-        const userData = await inquirer.prompt(questions);
+        const userData =  await inquirer.prompt(questions);
         console.log("Your responses: ", userData);
-        console.log("Thank you for your responses! Fetching your GitHub data next...");
+        console.log("All responses are completed! Fetching your GitHub data next...");
     
         // Call GitHub api for user info
-        const userInfo = await api.getUser(userData);
+        const userInfo = await githublink.getUser(userData);
         console.log("Your GitHub user info: ", userInfo);
     
         // Pass Inquirer userData and GitHub userInfo to generateMarkdown
-        console.log("Generating your README next...")
+        console.log("Generating your README file next...")
         const markdown = generateMarkdown(userData, userInfo);
         console.log(markdown);
     
