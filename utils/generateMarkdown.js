@@ -23,15 +23,20 @@ function generateMarkdown(userData,userInfo) {
   let draftMarkdown = 
   `# ${userData.title}`;
   
-  
-  // Descriptions Section
+    // Descriptions Section
 
-  `## Description 
+  let draftDesc =
+
+  `
+  
+  ## Description 
   
   *The what, why, and how:* 
   
   ${userData.description}
+
   `
+  draftMarkdown += draftDesc;
 
   // Add Table of Contents to markdown
   draftMarkdown += draftToC;
@@ -52,7 +57,9 @@ function generateMarkdown(userData,userInfo) {
   
   *Steps required to install project and how to get the development environment running:*
   
-  ${userData.installation}`
+  ${userData.installation}
+  
+  `
   };
   
 
@@ -103,6 +110,7 @@ function generateMarkdown(userData,userInfo) {
   ## License
   
   ${userData.license}
+  
   ![Badge for GitHub repo license](https://img.shields.io/github/license/${userData.username}/${userData.repo}?style=flat&logo=appveyor)
     Check out the badges hosted by [shields.io](https://shields.io/).
 
@@ -112,12 +120,10 @@ function generateMarkdown(userData,userInfo) {
   `
   ---
   
-  ## Questions?`
+  ## Questions?
   
-  // Incase a avatar wants to be added!!
-  // ![Developer Profile Picture](${userInfo.avatar_url}) 
-  
-  `For any questions, please contact me with the following information below:
+    
+  For any questions, please contact me with the following information below:
 
  
   GitHub: [@${userInfo.login}](${userInfo.html_url})
