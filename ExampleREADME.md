@@ -1,57 +1,110 @@
-# Good ReadMe Generator
+
+ 
+  # Good ReadMe Generator
+  
+  This project has been deployed to my Personal GitHub Page. To get this project up and running, you can follow the deployment links that I have included in the Link Section below.;
+  
+   
+    # Table of Contents
+  * [Description](#Project Overview)
+  * [Links](#Links)
+  * [Demo](#Demo)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Quetsions](#questions)
+
+  
   
   ## Project Overview 
   
-  Project Description
+  #Project Description
 
-  ## Table of Contents
-  * [License](#license)
-  * [Quetsions](#questions)
   
 
+  //Links Section
+
+  ## Links
+  
+  *[Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
+  
+
+  // Demo Video
+
+  ## Demo
+
+  [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/
+
+
+  // Installation section
+   
+  
   ## Installation
   
-  *Steps required to install project and how to get the development environment running:*
+  Download (and unpack) or clone the repo, then using a CLI run the  command.
   
-  
+
+  // Usage section
+   
   
   ## Usage 
+    
+  Run the application with the CLI command  and follow the prompts.
   
-  *Instructions and examples for use:*
   
   
-  
+  // Contributing section
+
   
   
   ## Contributing
   
-  *If you would like to contribute it, you can follow these guidelines for how to do so.*
+  *Please read [CONTRIBUTING.md](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/CONTRIBUTING.md) for details
+  
+  #
   
   
+  
+
+  // Tests section
   
   
   
   ## Tests
   
-  *Tests for application and how to run them:*
+if (userData.tests === "") {
+  There are no tests for this project.;
+} else {
   
+  Run this test using the CLI command: npm 
+
+};
+
+  // License section is required
+
   
   
   ## License
   
-  MIT License
+  This project is licensed under the MIT License License
 
   ![Badge for GitHub repo license](https://img.shields.io/github/license/undefined/JeffClegg_09_GoodReadMe_Generator?style=flat&logo=appveyor)
    
   
 
+  // Questions / About Developer section
+
+  
   ---
   
-  ## Questions?
+  ## Questions
   
     
-  For any questions, please contact me with the following information below:
+  Please contact me by on of the following links below:
 
  
   GitHub: [@JC72](https://github.com/JC72)
+  Email: jeffclegg@att.net
   

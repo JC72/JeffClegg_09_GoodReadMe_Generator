@@ -79,20 +79,20 @@ const responses = [
 
     {
         type: 'input',
-        message: "How do you install the dependencies for your project",
-        name: 'installation'
-    },
-
-    {
-        type: 'input',
-        message: "How do you run your program and what is the command.",
-        name: 'installation'
-    },
-
-    {
-        type: 'input',
-        message: "Provide instructions and examples of your project in use for the Usage section.",
+        message: "How do you install the dependencies for your project:",
         name: 'usage'
+    },
+
+    {
+        type: 'input',
+        message: "How do you run your program and what is the command:",
+        name: 'installation'
+    },
+
+    {
+        type: 'input',
+        message: "Provide the path for demo video. (Example: Assets/videoname.png)",
+        name: 'videoSrc'
     },
 
     {

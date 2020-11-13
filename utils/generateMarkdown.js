@@ -1,90 +1,92 @@
 // function to generate markdown for README
 function generateMarkdown(userData,userInfo) {
-  
-  // Title Portion
+  return `
  
-  `# ${userData.title}
+  # ${userData.title}
   
-  This project has been deployed to my Personal GitHub Page. To get this project up and running, you can follow the deployment links that I have included in the Link Section below.`;
+  This project has been deployed to my Personal GitHub Page. To get this project up and running, you can follow the deployment links that I have included in the Link Section below.;
   
    
-  // Table of Contents section
-  `# Table of Contents
+    # Table of Contents
   * [Description](#Project Overview)
   * [Links](#Links)
+  * [Demo](#Demo)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [License](#license)
-  * [Quetsions](#questions)`;
+  * [Quetsions](#questions)
 
   
-  // Description Section
-  `
   
   ## Project Overview 
   
-  ${userData.description}
+  #${userData.description}
 
-  `
+  
 
   //Links Section
 
-  `## Links
+  ## Links
   
-  *[Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
-  `
+  *[Github Repository](https://github.com/${userData.userName}/${userData.repo})
+  
+
+  // Demo Video
+
+  ## Demo
+
+  [Demo Video](https://github.com/${userData.userName}/${userData.repo}/blob/main/${userData.videoSrc}
+
 
   // Installation section
-   `
+   
   
-
   ## Installation
   
-  *Steps required to install project and how to get the development environment running:*
+  Download (and unpack) or clone the repo, then using a CLI run the ${userData.usage} command.
   
-  ${userData.installation}
-  `  
 
   // Usage section
    
-  `
+  
   ## Usage 
+    
+  Run the application with the CLI command ${userData.installation} and follow the prompts.
   
-  *Instructions and examples for use:*
   
-  ${userData.usage}
-  
-  `
   
   // Contributing section
 
-  `
+  
   
   ## Contributing
   
-  *If you would like to contribute it, you can follow these guidelines for how to do so.*
+  *Please read [CONTRIBUTING.md](https://github.com/${userData.userName}/${userData.repo}/blob/main/CONTRIBUTING.md) for details
   
-  ${userData.contributing}
+  #${userData.contributing}
   
-  `
+  
   
 
   // Tests section
   
-  `
+  
   
   ## Tests
   
-  *Tests for application and how to run them:*
-  
-  ${userData.tests}`
+if (userData.tests === "") {
+  There are no tests for this project.;
+} else {
+  ${userData.tests}
+  Run this test using the CLI command: npm ${userData.tests}
 
+};
 
   // License section is required
 
-  `
+  
   
   ## License
   
@@ -93,10 +95,10 @@ function generateMarkdown(userData,userInfo) {
   ![Badge for GitHub repo license](https://img.shields.io/github/license/${userData.username}/${userData.repo}?style=flat&logo=appveyor)
    
   
-`
+
   // Questions / About Developer section
 
-  `
+  
   ---
   
   ## Questions
@@ -107,8 +109,8 @@ function generateMarkdown(userData,userInfo) {
  
   GitHub: [@${userInfo.login}](${userInfo.html_url})
   Email: ${userData.emailAddress}
-  `;
   
+`
 }
 
 
