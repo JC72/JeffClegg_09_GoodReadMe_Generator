@@ -18,7 +18,7 @@
   
   ## Description
   
-  This is to generate a Good ReadMe file for project for GitHub.
+  This was a project to generate a Good ReadMe file for GitHub
 
 
   ## Links
@@ -28,7 +28,7 @@
 
   ## Demo
 
-  * [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/Demo.webm
+  * [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/DemoVideo.mp4
 
    
   
