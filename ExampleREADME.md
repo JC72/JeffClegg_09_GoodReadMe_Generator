@@ -18,17 +18,17 @@
   
   ## Description
   
-  #This is to test a project the makes a good ReadMe file for projects.
+  This is to generate a Good ReadMe file for project for GitHub.
 
 
   ## Links
   
-  *[Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
+  * [Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
   
 
   ## Demo
 
-  [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/videoname.png
+  * [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/Demo.webm
 
    
   
@@ -49,7 +49,8 @@
   #None
 
   ## Tests
-  There are no tests for this project. ## License
+  There are no tests for this project.
+ ## License
   
   This project is licensed under the MIT License License
 

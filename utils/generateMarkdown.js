@@ -23,17 +23,17 @@ function generateMarkdown(userData,userInfo) {
   
   ## Description
   
-  #${userData.description}
+  ${userData.description}
 
 
   ## Links
   
-  *[Github Repository](https://github.com/${userData.userName}/${userData.repo})
+  * [Github Repository](https://github.com/${userData.userName}/${userData.repo})
   
 
   ## Demo
 
-  [Demo Video](https://github.com/${userData.userName}/${userData.repo}/blob/main/${userData.videoSrc}
+  * [Demo Video](https://github.com/${userData.userName}/${userData.repo}/blob/main/${userData.videoSrc}
 
    
   
@@ -73,7 +73,8 @@ if (userData.tests === "") { markTest +=
 
   
  let markFinish = 
- ` ## License
+ `
+ ## License
   
   This project is licensed under the ${userData.license} License
 
