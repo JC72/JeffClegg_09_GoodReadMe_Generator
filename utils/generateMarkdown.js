@@ -1,8 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(userData,userInfo) {
-  return `
+  
+  let markStart = 
  
-  # ${userData.title}
+  `# ${userData.title}
   
   This project has been deployed to my Personal GitHub Page. To get this project up and running, you can follow the deployment links that I have included in the Link Section below.;
   
@@ -20,7 +21,7 @@ function generateMarkdown(userData,userInfo) {
 
   
   
-  ## Project Overview 
+  ## Description
   
   #${userData.description}
 
@@ -66,37 +67,33 @@ function generateMarkdown(userData,userInfo) {
   *Please read [CONTRIBUTING.md](https://github.com/${userData.userName}/${userData.repo}/blob/main/CONTRIBUTING.md) for details
   
   #${userData.contributing}
+`
   
-  
-  
+let markTest = 
+  `
+  ## Tests`;
 
-  // Tests section
-  
-  
-  
-  ## Tests
-  
-if (userData.tests === "") {
-  There are no tests for this project.;
-} else {
+if (userData.tests === "") { markTest +=
+  `
+  There are no tests for this project.`;
+} else { markTest +=
+
+  `
   ${userData.tests}
-  Run this test using the CLI command: npm ${userData.tests}
+    Run this test using the CLI command: npm ${userData.tests}`
 
 };
 
   // License section is required
 
   
-  
-  ## License
+ let markFinish = 
+ ` ## License
   
   This project is licensed under the ${userData.license} License
 
-  ![Badge for GitHub repo license](https://img.shields.io/github/license/${userData.username}/${userData.repo}?style=flat&logo=appveyor)
-   
-  
+  ![Badge for GitHub repo license](https://img.shields.io/github/license/${userData.userName}/${userData.repo}?style=flat&logo=appveyor)
 
-  // Questions / About Developer section
 
   
   ---
@@ -106,11 +103,16 @@ if (userData.tests === "") {
     
   Please contact me by on of the following links below:
 
- 
+ |--|
   GitHub: [@${userInfo.login}](${userInfo.html_url})
+  |--|
   Email: ${userData.emailAddress}
   
 `
+markStart += markTest
+markStart += markFinish
+
+return markStart
 }
 
 

@@ -1,6 +1,4 @@
-
- 
-  # Good ReadMe Generator
+# Good ReadMe Generator
   
   This project has been deployed to my Personal GitHub Page. To get this project up and running, you can follow the deployment links that I have included in the Link Section below.;
   
@@ -18,7 +16,7 @@
 
   
   
-  ## Project Overview 
+  ## Description
   
   #Project Description
 
@@ -43,7 +41,7 @@
   
   ## Installation
   
-  Download (and unpack) or clone the repo, then using a CLI run the  command.
+  Download (and unpack) or clone the repo, then using a CLI run the npm install command.
   
 
   // Usage section
@@ -51,7 +49,7 @@
   
   ## Usage 
     
-  Run the application with the CLI command  and follow the prompts.
+  Run the application with the CLI command node index.js and follow the prompts.
   
   
   
@@ -63,38 +61,15 @@
   
   *Please read [CONTRIBUTING.md](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/CONTRIBUTING.md) for details
   
-  #
-  
-  
-  
+  #None
 
-  // Tests section
-  
-  
-  
   ## Tests
-  
-if (userData.tests === "") {
-  There are no tests for this project.;
-} else {
-  
-  Run this test using the CLI command: npm 
-
-};
-
-  // License section is required
-
-  
-  
-  ## License
+  There are no tests for this project. ## License
   
   This project is licensed under the MIT License License
 
-  ![Badge for GitHub repo license](https://img.shields.io/github/license/undefined/JeffClegg_09_GoodReadMe_Generator?style=flat&logo=appveyor)
-   
-  
+  ![Badge for GitHub repo license](https://img.shields.io/github/license/JC72/JeffClegg_09_GoodReadMe_Generator?style=flat&logo=appveyor)
 
-  // Questions / About Developer section
 
   
   ---
@@ -104,7 +79,8 @@ if (userData.tests === "") {
     
   Please contact me by on of the following links below:
 
- 
+ |--|
   GitHub: [@JC72](https://github.com/JC72)
+  |--|
   Email: jeffclegg@att.net
   
