@@ -1,10 +1,10 @@
-# Good ReadMe Generator
+# JeffClegg_09_GoodReadMe_Generator
   
   This project has been deployed to my Personal GitHub Page. To get this project up and running, you can follow the deployment links that I have included in the Link Section below.;
   
    
-    # Table of Contents
-  * [Description](#Project Overview)
+  # Table of Contents
+  * [Description](#Descrtiption)
   * [Links](#Links)
   * [Demo](#Demo)
   * [Installation](#installation)
@@ -18,43 +18,28 @@
   
   ## Description
   
-  #Project Description
+  #This is to test a project the makes a good ReadMe file for projects.
 
-  
-
-  //Links Section
 
   ## Links
   
   *[Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
   
 
-  // Demo Video
-
   ## Demo
 
-  [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/
+  [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/videoname.png
 
-
-  // Installation section
    
   
   ## Installation
   
   Download (and unpack) or clone the repo, then using a CLI run the npm install command.
   
-
-  // Usage section
-   
   
   ## Usage 
     
   Run the application with the CLI command node index.js and follow the prompts.
-  
-  
-  
-  // Contributing section
-
   
   
   ## Contributing
@@ -79,8 +64,8 @@
     
   Please contact me by on of the following links below:
 
- |--|
+
   GitHub: [@JC72](https://github.com/JC72)
-  |--|
+
   Email: jeffclegg@att.net
   

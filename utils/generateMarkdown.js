@@ -9,7 +9,7 @@ function generateMarkdown(userData,userInfo) {
   
    
   # Table of Contents
-  * [Description](#Project Overview)
+  * [Description](#Descrtiption)
   * [Links](#Links)
   * [Demo](#Demo)
   * [Installation](#installation)
