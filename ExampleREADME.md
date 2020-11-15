@@ -28,7 +28,7 @@
 
   ## Demo
 
-  * [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/DemoVideo.mp4
+  * [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/DemoVideo.gif)
 
    
   

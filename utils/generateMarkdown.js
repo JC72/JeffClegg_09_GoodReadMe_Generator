@@ -33,7 +33,7 @@ function generateMarkdown(userData,userInfo) {
 
   ## Demo
 
-  * [Demo Video](https://github.com/${userData.userName}/${userData.repo}/blob/main/${userData.videoSrc}
+  * [Demo Video](https://github.com/${userData.userName}/${userData.repo}/blob/main/${userData.videoSrc})
 
    
   
