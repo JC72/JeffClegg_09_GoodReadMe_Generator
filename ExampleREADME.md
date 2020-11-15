@@ -23,12 +23,12 @@
 
   ## Links
   
-  * [Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
+  ! [Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
   
 
   ## Demo
 
-  * [Demo Video](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/DemoVideo.gif)
+  * [](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/DemoVideo.gif)
 
    
   
