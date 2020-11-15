@@ -97,7 +97,7 @@ const responses = [
 
     {
         type: 'input',
-        message: "List other developers or sites that helped to create your project.",
+        message: "Provide the path for the location of your Contributing.md.",
         name: 'contributing'            
     },
 

@@ -18,7 +18,6 @@ function generateMarkdown(userData,userInfo) {
   * [Tests](#tests)
   * [License](#license)
   * [Quetsions](#questions)
-
   
   
   ## Description
@@ -33,7 +32,7 @@ function generateMarkdown(userData,userInfo) {
 
   ## Demo
 
-  * [Demo Video](https://github.com/${userData.userName}/${userData.repo}/blob/main/${userData.videoSrc})
+  ![](https://github.com/${userData.userName}/${userData.repo}/blob/main/${userData.videoSrc})
 
    
   
@@ -49,9 +48,8 @@ function generateMarkdown(userData,userInfo) {
   
   ## Contributing
   
-  *Please read [CONTRIBUTING.md](https://github.com/${userData.userName}/${userData.repo}/blob/main/CONTRIBUTING.md) for details
-  
-  #${userData.contributing}
+  *Please read [CONTRIBUTING.md](https://github.com/${userData.userName}/${userData.repo}/blob/main/#${userData.contributing}) for details.
+
 `
   
 let markTest = 
@@ -74,7 +72,7 @@ if (userData.tests === "") { markTest +=
   
  let markFinish = 
  `
- ## License
+  ## License
   
   This project is licensed under the ${userData.license} License
 

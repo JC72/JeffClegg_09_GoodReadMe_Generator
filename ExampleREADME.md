@@ -23,12 +23,12 @@
 
   ## Links
   
-  ![Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
+  * [Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
   
 
   ## Demo
 
-  * [](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/DemoVideo.gif)
+  ![](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/Assets/DemoVideo.gif)
 
    
   
@@ -44,13 +44,13 @@
   
   ## Contributing
   
-  *Please read [CONTRIBUTING.md](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/CONTRIBUTING.md) for details
+  * Please read [CONTRIBUTING.md](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator/blob/main/CONTRIBUTING.md) for details.
   
-  #None
 
   ## Tests
   There are no tests for this project.
- ## License
+
+  ## License
   
   This project is licensed under the MIT License License
 
