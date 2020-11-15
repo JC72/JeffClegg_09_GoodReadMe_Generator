@@ -23,7 +23,7 @@
 
   ## Links
   
-  ! [Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
+  ![Github Repository](https://github.com/JC72/JeffClegg_09_GoodReadMe_Generator)
   
 
   ## Demo
